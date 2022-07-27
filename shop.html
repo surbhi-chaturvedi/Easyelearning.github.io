@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> E learning Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+<section id="header">
+    <a href="#"><img src="project logo.jpg" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="Contact.html"> contact</a></li>
+            <li><a class="active" href="shop.html"> Shop</a></li>
+            <li><a href="blog.html"> Blog</a></li>
+            <li><a href="about.html"><i class="far fa-shopping-bag"></i> About</a></li>
+            
+            <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            
+
+        </ul>
+    </div>
+
+    <div id="mobile">
+        <a href="about.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+
+    </div>
+
+</section>
+
+<section id="page-header">
+
+    <h2>LEARN WITH STAYING AT HOME ONLY</h2>
+
+    <p> Save more with coupons & up to 75% off!</p>
+
+
+</section>
+
+
+<section id="product1" class="secion-p1">
+    <div class="pro-conatainer">
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="https://storage.googleapis.com/infiflexnew.appspot.com/5716020098498560" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5>Cloud Computing And Vertualization </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 500</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://storage.googleapis.com/infiflexnew.appspot.com/5716020098498560" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5>SAAS</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 300</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://storage.googleapis.com/infiflexnew.appspot.com/5716020098498560" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5>PAAS </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 300</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0puRq_aggbugy1GKz-ojs3tCpuThWBkgeQQ&usqp=CAU" alt="">
+            <div class="des">
+                <span>EASY E LEARNING </span>
+                <h5> BIG DATA </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 400</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="data:image/png;base64,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" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5>PANDAS</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 500</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/191428/image-1582300060923-b8b1c21533773f01e1ca133a12eab772.png" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5>Database Management </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 400</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://miro.medium.com/max/696/0*H5Wus5XpvcszBYee.jpg" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5>Information Flow </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 500</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://wp.technologyreview.com/wp-content/uploads/2021/01/image001.jpg" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5> Internet of Things</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 600</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://www.intepat.com/wp-content/uploads/2018/06/machine-learing-475x300.jpg" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5> Machine Learning </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 700</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://www.kilburnstrode.com/KilburnStrode/media/KilburnStrodeMediaLibrary/Knowledge/AI-2.png?ext=.png" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5>Artificial Intelligence </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 700</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0puRq_aggbugy1GKz-ojs3tCpuThWBkgeQQ&usqp=CAU" alt="">
+            <div class="des">
+                <span> EASY E LEARNING</span>
+                <h5> Ethical Hacking</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 700</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="data:image/png;base64,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" alt="">
+            <div class="des">
+                <span>EASY E LEARNING </span>
+                <h5> Mini Project PANDAS</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 1000</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/191428/image-1582300060923-b8b1c21533773f01e1ca133a12eab772.png" alt="">
+            <div class="des">
+                <span> EASY E LEARNING </span>
+                <h5>Full Stack Web Development</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 1000</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="https://miro.medium.com/max/696/0*H5Wus5XpvcszBYee.jpg" alt="">
+            <div class="des">
+                <span>EASY E LEARNING</span>
+                <h5>DSA </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <h4>INR 600</h4>
+
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+
+    </div>
+</section>
+
+<section id="pagination" class="secion-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fal fa-long-arrow-alt-right"></i> </a>
+</section>
+
+
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        
+        <p>Get E mail update about our prodoucts
+        </p>
+    </div>
+
+
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sign up </button>
+    </div>
+
+</section>
+
+<footer class="secion-p1">
+    <div class="col">
+        <img src="project logo.jpg" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>GLA University,Mathura</p>
+        <p><strong>Phone:</strong> +91 9319xxxxxx, +91 85xxxxxxxx</p>
+
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - sun</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div  class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#"> about us</a>
+        <a href="#"> Machine infomation</a>
+        <a href="#"> privacy polivcy</a>
+        <a href="#"> Terms and condition</a>
+        <a href="#"> contact us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#"> Sign In</a>
+        <a href="#">View cart</a>
+        <a href="#"> My Wishlist</a>
+        <a href="#"> Track My order</a>
+        <a href="#"> help</a>
+    </div>
+    <div class="col install">
+        
+        
+        <div class="row">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEA0ODw8OEA8QEA0NEA8NDQ8PEBINFhIWFhURHxUYHSggGBolGxcVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGi0lIB0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLSstLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMIBAwMBEQACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAAAwEEBQYHAv/EADUQAAIBAgMGBAQFBAMAAAAAAAABAgMRBAUGEiExQVFxEyJhgTJCkcEHUmKx0SNygqEUU2P/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUBBAYDB//EACkRAQACAgEFAAEEAgMBAAAAAAABAgMRBAUSITFBEyIyUWEGcRQjQxX/2gAMAwEAAhEDEQA/AO4gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgFlmWa0MNHaq1Iw6LjJ9kt7I2vEPLJmpj/dLWsTr+gm1TpVJ+srQX+zxnPDSv1GseoQU/xCjfzYeVv0zX3EciEI6nH2GayzV2ErtR23Tm/lqrZ39L8GTrmrLax8zHdn4yT4Hq2olUMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAw1rVuplhI+HTtKvJbk96gvzM8cmXt9NPlcqMcaj25picTOrJ1KknOb+aTualrTPtR3yWtO7IiKAAEG5+M5kmqcRhbRv4lL8k3wXo+R61y2huYeXfH78w6HkuosPil5J2nzpzspJ/c2qZIst8PKpl9T5ZY9GyqAAAAAAAAAAAAAAAAAAAAAAAAUcrbwxtrmZazwtGTgtqrJOz8NLZv34G9i6fmvG9aa1+XSs6ecu1thKslGTlSk+HifC/8luM5enZqRuPLFOZjsy+a5nChQnXbTio3jZ7pN8EV157I8vbLlilJs49jMVOtUnVm7ym9p/ZFfady5vJeb27pQmEAAAB4UBCsaji1JScWt6admh3ae+HDmvP/XEy2vItdzp2p4n+pDcvEXxrv1PenI17X+Djc2sfrpLf8uzKjiYqdGpGcX0aun0a5G1W9bemxNLV/dEwu7kkVQAAAAAAAAAAAAAAAAAAAAANN17nbpxjhqcrTn5ptPeodPctOm8X8lu+3qGjy83bHbDnkjooVco5MaRl7ljqrgqTnJ009pQbvFM0uX07FyI8+y17WjW3iNRPucpy+m5cG51uHhL2VrAZAADfhDiK2zuW9kZtpe9F6Pbm37rfthaXb4njMzL6RxeDh41YrjqlgjDbXuAxtWhJVKU5Qkt91wfdcyVclqzuHhl42PLHbaHUdJamWMjsTtGvHjFcJL8yLPDmi8OT5/Atx7bj02Q91cAAAAAAAAAAAAAAAAAACgFrmeNjQpTrT4RTfHi+SJ4sU5LxWEMl4pG5cfzDFyr1J1pu8ptvsuS+h12HFGOkVhR5Ld1trSR6vOUTZJCUcmIRRNmMlIvWaz9Yld0pXSZwHOwxhzTVF7NRgA9Uqbk1GKu5OyPPLkrSk2n49MOKcuSKQymYaZUkpUpNTsk4yd4t8+xQV6tu893p9O6Zri4opprlShKnJwmnGS4p/uW9Mlbxuq8reLxuHqCJpJALrLMbLD1adaDs4ST7x5r6E8du20NflYYzY5rP8O3YWsqkITi7qUVJdmXETuNuFvXttNZ+JTKIAAAAAAAAAAAAAAAAAUA53r7N/EqLCwfkpu87c6nJexfdM42o/JKr5ebc9sNRZcNBHIMIpMkjKKRlFHIz/aO13QVoo4LqWSL8iZhFIV4AZ3TuD41pdo3/AHOe6vy//OrquhcLx+a0M4c+6dhtTYJTp+Il5ob79Y9C16ZyJpeKz9bfFyTW+pavFHRrRUAB2XSMm8FhW+PhxLfD+yHC82NZ7f7Zg9WqAAAAAAAAAAAAAAAAAGJ1LmqwtCVT535aa/WzZ4uCcuSKvHPk7KuSTk5Nybu2223zbOrpWKx2wpJmZnco5MkijkGEUiSEo5Ml/aMqUYbT9EVXVeXGDDNY9yivTh5mZncsA2f0nwWGdWcYLnvb6R5mtys8YMe23weNbPmivxuFOCilGPBKy7I4vJeb2m0voWLFGOsVj49Hm9FlnVRRoVb847K7s3eDSZzRp7YImbw0xI6tcgNPVODk4xW9yail+puyMxG51CF7xWs2n47flGF8GhRpfkhGPvYuKRqsQ4PPfvyTb+ZXhN5AAAAAAAAAAAAAAAAABzLX2OdTE+En5aKSty23vb/Y6HpeKK45t/Kp5l9201ktGk8SZkRSZlGUUiSKNkb3ilZtPqEZXdKGyrczg+ocqeRmmyD2aICZ/lmI3LZsiwfhw25Lzzs+0TlOqcr8t+2PUO16Nw/w4++0eZZMqdrtUzDLV9R47bn4UX5YO8vWXQ6HpvG7a98rHiYtfqlhi2boBuX4eZN4tR4qa8lJ2hfg6nX2Nvi4tz3Soes8ztr+Kv326UixcyqAAAAAAAAAAAAAAAAAAOO6im3i8U3/ANs17LcdXw41hrpRZ/OSWNkbbxRyZlhFIyijkZReqELu5z/Wub21/FVGVycmiAX2UYPxam9eSO+Xr0RXdQ5X4cevsrXpPD/5GXc+obWchM7d3EREaj4GEllm+NVGk5fM/LFfqNzh4Py5NfHrhx99mmXu23vbbbfqzqq17Y1HxcxGo0EhcZfhJ16tOjBXlOSivRc37E6V7p08eRmjDjm0u05VgIYejTowSSgkuHF82W1K9tdOGzZpy3m8rwm8gAAAAAAAAAAAAAAAAAAco1lhnTxla63TtUXZr+UdP06/dgiP4UvKrrIwMjfayKRmEZRyMoo0rux48jNGHHN5Qnwu4xsrHAcjNbNkm8oqniwRV2kldvcu5G1orWbSnSs2tFY9y2/LMIqNNR+Z+aT9ehx3O5E5ssz8h3/TuJHHwxH2fa6NL4sRiI34g/ppmd47xqrt8ELxj6+p1PA48Y6bn6teNi7arJG99bIB0X8Osl2IvFzj5p3jTut6hzl7lhxcWo7nL9Y5fff8ceobwbijAAAAAAAAAAAAAAAAAAAA1TXeTOtSVaCbqUU20uMqfP6Fj07k/iv229S0+Xi7q7hzSTOl39VE+PaGTMoSjkzOvKMs7p7LIVadSc1e72Yvpbiz57/l/V74ssYaeodB0rp1M+KbX+mMyWpB3h54+nxL2KDjdVx3jV/DX5fRcuO26eVrHL6z3eFP3VkbdudgiN9zRp03kzOu1mcqyjw3t1LOS4RW9J9e5Sc/qX5I7aOi6Z0f8U9+T2y5SuiDAxGo8f4VPYi/PPdu5Q5ss+ncbvv3T6hs8XF323PxqkEdL4Wvp7AyenMqli8RTpJeW6lUfSmuPu+B64cfdbTT5/JjBimfsuy0KShGMIq0YpRSXJItojXhxFrTaZmfqQywAAAAAAAAAAAAAAAAAAABRoehomqdGOTlXwi3u8pUdyu+sf4LnhdR7f0ZFbyeJvzVoOIpShJxnGUZJ2cZKzRe0vW0brKsvWa+JW8iekG56ct/xqVv/S/faZ8Z/wAs3/8AQnf8O46Pr/jRpkjmVsqPLGoUDIYHunByaiuLdkeuHFOS0Vj6je0VjcrvOtE08RGMoycK6ik5cYy7r+DvOPwK48UV+tLj9Wviv/TR8bpnGUZOMqE5JcJU1txfruPO2C9fGl9i6jx7xuLaesBprGVpKMaE4LnOqtiK+pmuC9vZm6lgxxve3StMafhgqeyvNUlvqTtxfTsWGLFGOHL83mW5N9z6Zo9mkqAAAAAAAAAAAAAAAAAAAAAAAxWdZDh8XG1WC2uU47pr3PfDycmGd1l45OPTJDm+oNGYnDXnTTrUusF50vVfc6Di9Tpk8X8SqM/DvT15NI4pOE6L4xbkv7Xx/wBnCf5rwJi8cmvqV/0HkbrOKfbYD5+6QAADLDOadwV260l6R+7Oo6Fwdz+W8f6VnMz7/TDYTq1aWApYCoAAAAAAAAAAAAAAAAAAAAAAAAAGBSwGv5rpSjVmq9L+jXW/bgvLL0lHmTy3nNinFk8w8q4+y/fTxLGYnA1aXxx/yjvj3Pn3P6ZkwXnUeHQYORW8eZ8rYq5htKrpz6IzFZn1BMxHtk8uyedRqU04w6cG/wCC86f0e+WYtkjUNHkcyK+K+2zU4KKUUrJbkdljx1x1itfiptMzO5ez0YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy1fcyNqxaNSROvS3ngKT404fQ1bcDj290h6RmyR6l6pYSnHfGEV2RKnDw0ndasTltPuVwbOkAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q==" alt="">
+            <p>Secured payment Gateways</p>
+        </div>
+        
+
+
+    </div>
+
+    <div class="copyright">
+        <p> JOVAC WEB DEVELOPMENT BOOTCAMP 2022</p>
+    </div>
+
+</footer>
+
+
+
+<script src="script.js">
+
+</script>
+</body>
+
+</html>
